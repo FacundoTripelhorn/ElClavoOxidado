@@ -1,6 +1,6 @@
 ﻿Public Class DAL_Usuario
 
-    Public Sub Obtener_Usuarios(ByRef usuario As Entity.Usuario, _password As String)
+    Public Sub Obtener_Usuario(ByRef usuario As Entity.Usuario, _password As String)
         Dim _dal As New DAL.SQL_Desconectado
 
         Dim _ds As DataSet ' Obtengo de la BD los datos
@@ -92,6 +92,37 @@
         _parametros.Clear()
         _parametros.Add("@Usuario", _username)
         _parametros.Add("@Password", _password)
+
+        _dal.EjecutarNonQuery_StoreProcedure(_storeProcedure, _parametros)
+    End Sub
+
+    Public Function Get_Usuarios() As List(Of Entity.Usuario)
+        Dim _listaUsuarios As New List(Of Entity.Usuario)
+        Try
+            Dim _dal As New DAL.SQL_Desconectado
+            Dim _ds As DataSet
+            Dim _storeProcedure As String
+            _storeProcedure = "GetUsuarios"
+            _ds = _dal.Obtener_DatasetStoreProcedure(_storeProcedure)
+
+            For Each Item As DataRow In _ds.Tables(0).Rows
+                _listaUsuarios.Add(New Entity.Usuario(Item(0), Item(1), Item(2), Item(3), Item(4)))
+            Next
+
+        Catch ex As Exception
+        End Try
+        Return _listaUsuarios
+    End Function
+
+    Public Sub Asignar_Rol(_username As String, _familia As Integer)
+        Dim _dal As New DAL.SQL_Desconectado
+        Dim _storeProcedure As String
+        Dim _parametros As New Dictionary(Of String, Object)
+        _storeProcedure = "AsignarRol"
+
+        _parametros.Clear()
+        _parametros.Add("@Usuario", _username)
+        _parametros.Add("@Familia", _familia)
 
         _dal.EjecutarNonQuery_StoreProcedure(_storeProcedure, _parametros)
     End Sub

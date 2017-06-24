@@ -3,7 +3,7 @@
     Dim _dal As New DAL.DAL_Usuario
     Public Function Validar_Login(_user As Entity.Usuario, _pass As String) As Boolean
         ' Validamos el usuario
-        _dal.Obtener_Usuarios(_user, _pass)
+        _dal.Obtener_Usuario(_user, _pass)
 
         ' Verificamos que sea un usuario registrado
         If _user.Usuario Is Nothing And _user.IsValid = False Then
@@ -49,5 +49,13 @@
 
     Public Sub Cambiar_Contraseña(_username As String, _password As String)
         _dal.Cambiar_Contraseña(_username, _password)
+    End Sub
+
+    Public Function Get_Usuarios() As List(Of Entity.Usuario)
+        Return _dal.Get_Usuarios
+    End Function
+
+    Public Sub Asignar_Rol(_username As String, _familia As Integer)
+        _dal.Asignar_Rol(_username, _familia)
     End Sub
 End Class

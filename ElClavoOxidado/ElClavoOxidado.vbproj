@@ -179,7 +179,7 @@
     <Content Include="Bitacora.aspx" />
     <Content Include="Carrito.aspx" />
     <Content Include="Contact.aspx" />
-    <Content Include="Content\bitacora.css" />
+    <Content Include="Content\estilo.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
@@ -237,6 +237,7 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="UserManager.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
     <None Include="Project_Readme.html" />
@@ -288,6 +289,7 @@
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="App_Start\Startup.Auth.vb" />
+    <Compile Include="App_Start\VistaUsuario.vb" />
     <Compile Include="Bitacora.aspx.designer.vb">
       <DependentUpon>Bitacora.aspx</DependentUpon>
     </Compile>
@@ -375,6 +377,13 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Startup.vb" />
+    <Compile Include="UserManager.aspx.designer.vb">
+      <DependentUpon>UserManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserManager.aspx.vb">
+      <DependentUpon>UserManager.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="ViewSwitcher.ascx.vb">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

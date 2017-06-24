@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Bitácora" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site.Master" CodeBehind="Bitacora.aspx.vb" Inherits="ElClavoOxidado.Bitacora" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <link rel="stylesheet" href="Content/bitacora.css" />
+    <link rel="stylesheet" href="Content/estilo.css" />
     <br />
     <div class="container">
         <asp:GridView ID="GrillaBitacora" runat="server">

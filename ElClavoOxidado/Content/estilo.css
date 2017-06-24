@@ -1,0 +1,26 @@
+﻿table {
+    width:100%;
+}
+
+.rol_container {
+    float:left; 
+    width:50%;
+}
+
+.rol_container_left {
+    float:left;
+}
+
+.rol_container_right {
+    float:right;
+}
+
+.asignar_rol {
+    float: right;
+    width:48%;
+    margin-top: 25px;
+}
+
+.asignar_rol_container {
+    width:55%;
+}
