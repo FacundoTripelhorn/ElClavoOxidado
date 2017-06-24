@@ -91,7 +91,7 @@
 
         _parametros.Clear()
         _parametros.Add("@Usuario", _username)
-        _parametros.Add("@Password", -_password)
+        _parametros.Add("@Password", _password)
 
         _dal.EjecutarNonQuery_StoreProcedure(_storeProcedure, _parametros)
     End Sub

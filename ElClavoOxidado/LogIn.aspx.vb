@@ -22,8 +22,6 @@ Public Class LogIn
                     Roles.AddUserToRole(_usuarioEntity.Usuario, _usuarioEntity.Familia)
                 End If
                 CargarBitacora(_usuarioEntity.Usuario)
-                MsgBox("Usted se ha logueado correctamente")
-                MsgBox("Bienvenido " + UserName.Text)
                 Response.Redirect("/Default", True)
 
             Else

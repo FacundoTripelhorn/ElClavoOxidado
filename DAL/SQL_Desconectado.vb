@@ -119,13 +119,12 @@ Public Class SQL_Desconectado
             unComando.CommandText = sp
 
             unComando.Parameters.Clear()
-            For Each p In parametros
-                unComando.Parameters.AddWithValue(p.Key, p.Value)
-                If p.Key = "@Result" Then
-                    unComando.Parameters("@Result").Direction = ParameterDirection.Output
-                End If
-            Next
 
+            If Not parametros Is Nothing Then
+                For Each p In parametros
+                    unComando.Parameters.AddWithValue(p.Key, p.Value)
+                Next
+            End If
             '3) Tipo de consulta.
             unComando.CommandType = CommandType.StoredProcedure
 
