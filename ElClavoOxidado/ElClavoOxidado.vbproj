@@ -176,6 +176,7 @@
     <Content Include="Account\Lockout.aspx" />
     <Content Include="Account\ResetPassword.aspx" />
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
+    <Content Include="Backup.aspx" />
     <Content Include="Bitacora.aspx" />
     <Content Include="Carrito.aspx" />
     <Content Include="Contact.aspx" />
@@ -203,6 +204,7 @@
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Productos.aspx" />
     <Content Include="Registrarse.aspx" />
+    <Content Include="Restore.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\imageslide.js" />
@@ -290,6 +292,13 @@
     </Compile>
     <Compile Include="App_Start\Startup.Auth.vb" />
     <Compile Include="App_Start\VistaUsuario.vb" />
+    <Compile Include="Backup.aspx.designer.vb">
+      <DependentUpon>Backup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Backup.aspx.vb">
+      <DependentUpon>Backup.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Bitacora.aspx.designer.vb">
       <DependentUpon>Bitacora.aspx</DependentUpon>
     </Compile>
@@ -367,6 +376,13 @@
     </Compile>
     <Compile Include="Registrarse.aspx.vb">
       <DependentUpon>Registrarse.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Restore.aspx.designer.vb">
+      <DependentUpon>Restore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Restore.aspx.vb">
+      <DependentUpon>Restore.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Site.Master.designer.vb">
