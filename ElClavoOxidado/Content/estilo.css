@@ -4,7 +4,7 @@
 
 .rol_container {
     float:left; 
-    width:50%;
+    width:55%;
 }
 
 .rol_container_left {
@@ -17,8 +17,8 @@
 
 .asignar_rol {
     float: right;
-    width:48%;
-    margin-top: 25px;
+    width:40%;
+    margin-top: 24px;
 }
 
 .asignar_rol_container {
