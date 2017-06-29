@@ -176,6 +176,7 @@
     <Content Include="Account\Lockout.aspx" />
     <Content Include="Account\ResetPassword.aspx" />
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
+    <Content Include="BackUp.aspx" />
     <Content Include="Bitacora.aspx" />
     <Content Include="Carrito.aspx" />
     <Content Include="Contact.aspx" />
@@ -184,6 +185,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\slideshow.css" />
+    <Content Include="EditarProductos.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Images\atencionycalidad.jpg" />
     <Content Include="Images\bannerferreteria.jpeg" />
@@ -203,6 +205,7 @@
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Productos.aspx" />
     <Content Include="Registrarse.aspx" />
+    <Content Include="Restore.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\imageslide.js" />
@@ -290,6 +293,13 @@
     </Compile>
     <Compile Include="App_Start\Startup.Auth.vb" />
     <Compile Include="App_Start\VistaUsuario.vb" />
+    <Compile Include="BackUp.aspx.designer.vb">
+      <DependentUpon>BackUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BackUp.aspx.vb">
+      <DependentUpon>BackUp.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Bitacora.aspx.designer.vb">
       <DependentUpon>Bitacora.aspx</DependentUpon>
     </Compile>
@@ -317,6 +327,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.vb">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditarProductos.aspx.designer.vb">
+      <DependentUpon>EditarProductos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditarProductos.aspx.vb">
+      <DependentUpon>EditarProductos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
@@ -367,6 +384,13 @@
     </Compile>
     <Compile Include="Registrarse.aspx.vb">
       <DependentUpon>Registrarse.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Restore.aspx.designer.vb">
+      <DependentUpon>Restore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Restore.aspx.vb">
+      <DependentUpon>Restore.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Site.Master.designer.vb">
