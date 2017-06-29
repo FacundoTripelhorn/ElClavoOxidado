@@ -185,6 +185,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\slideshow.css" />
+    <Content Include="EditarProductos.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Images\atencionycalidad.jpg" />
     <Content Include="Images\bannerferreteria.jpeg" />
@@ -326,6 +327,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.vb">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditarProductos.aspx.designer.vb">
+      <DependentUpon>EditarProductos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditarProductos.aspx.vb">
+      <DependentUpon>EditarProductos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>

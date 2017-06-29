@@ -47,4 +47,10 @@ Public Class UserManager
         _bitacoraEntity.Actividad = "El usuario " & usuario & "le asigno al usuario " & Username.Text & " el rol de " & Familia.Text
         _bitacoraNeg.Alta_Bitacora(_bitacoraEntity)
     End Sub
+
+    Private Sub UserManager_PreLoad(sender As Object, e As EventArgs) Handles Me.PreLoad
+        If Not Context.User.IsInRole("1") Then
+            Response.Redirect("Default", True)
+        End If
+    End Sub
 End Class

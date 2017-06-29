@@ -24,7 +24,7 @@ Partial Public Class Startup
                 .OnValidateIdentity = SecurityStampValidator.OnValidateIdentity(Of ApplicationUserManager, ApplicationUser)(
                     validateInterval:=TimeSpan.FromMinutes(30),
                     regenerateIdentity:=Function(manager, user) user.GenerateUserIdentityAsync(manager))},
-            .LoginPath = New PathString("/Account/Login")})
+            .LoginPath = New PathString("/LogIn")})
         ' Usar una cookie para almacenar temporalmente información sobre un usuario que inicia sesión con un proveedor de inicio de sesión de un tercero
         app.UseExternalSignInCookie(DefaultAuthenticationTypes.ExternalCookie)
 

@@ -9,4 +9,9 @@ Public Class Bitacora
         GrillaBitacora.DataBind()
     End Sub
 
+    Private Sub Bitacora_PreLoad(sender As Object, e As EventArgs) Handles Me.PreLoad
+        If Not Context.User.IsInRole("1") Then
+            Response.Redirect("Default", True)
+        End If
+    End Sub
 End Class
