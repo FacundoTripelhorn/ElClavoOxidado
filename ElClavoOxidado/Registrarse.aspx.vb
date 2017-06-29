@@ -6,21 +6,22 @@ Public Class Registrarse
     Dim _usuarioNegocio As New Negocio.Usuario
     Dim _usuarioEntity As Entity.Usuario
     Protected Sub Registrarse(sender As Object, e As EventArgs)
+        If Password.Text.Length > 5 Then
+            If Password.Text = ConfirmPassword.Text Then
+                _usuarioEntity = New Entity.Usuario
+                _usuarioEntity.Usuario = UserName.Text
+                _usuarioEntity.Email = Email.Text
+                _usuarioEntity.Password = Password.Text
+                _usuarioEntity.Familia = 3
 
-        If Password.Text = ConfirmPassword.Text Then
-            _usuarioEntity = New Entity.Usuario
-            _usuarioEntity.Usuario = UserName.Text
-            _usuarioEntity.Email = Email.Text
-            _usuarioEntity.Password = Password.Text
-            _usuarioEntity.Familia = 3
-
-            If _usuarioNegocio.Chequear_Usuario(_usuarioEntity.Usuario) = False Then
-                ErrorMessage.Text = "El nombre de usuario ingresado ya existe, pruebe otro nombre de usuario"
-                ErrorMessage.Visible = True
-            Else
-                _usuarioNegocio.Alta_Usuario(_usuarioEntity)
-                CargarBitacoraRegistrar(_usuarioEntity.Usuario)
-                LogIn()
+                If _usuarioNegocio.Chequear_Usuario(_usuarioEntity.Usuario) = False Then
+                    ErrorMessage.Text = "El nombre de usuario ingresado ya existe, pruebe otro nombre de usuario"
+                    ErrorMessage.Visible = True
+                Else
+                    _usuarioNegocio.Alta_Usuario(_usuarioEntity)
+                    CargarBitacoraRegistrar(_usuarioEntity.Usuario)
+                    LogIn()
+                End If
             End If
         End If
     End Sub

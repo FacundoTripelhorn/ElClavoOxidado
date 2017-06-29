@@ -12,30 +12,33 @@ Public Class LogIn
     Protected Sub LogInBtn_Click(sender As Object, e As EventArgs) Handles LogInBtn.Click
         _usuarioEntity = New Entity.Usuario With {.Usuario = UserName.Text, .Password = Password.Text}
         Try
-            If _usuarioNeg.Validar_Login(_usuarioEntity, _usuarioEntity.Password) Then
-                If RememberMe.Checked Then
-                    FormsAuthentication.SetAuthCookie(UserName.Text, True)
+            If Password.Text.Length > 5 Then
+                If _usuarioNeg.Validar_Login(_usuarioEntity, _usuarioEntity.Password) Then
+                    If RememberMe.Checked Then
+                        FormsAuthentication.SetAuthCookie(UserName.Text, True)
+                    Else
+                        FormsAuthentication.SetAuthCookie(UserName.Text, False)
+                    End If
+                    If Roles.IsUserInRole(_usuarioEntity.Usuario, _usuarioEntity.Familia) = False Then
+                        Roles.AddUserToRole(_usuarioEntity.Usuario, _usuarioEntity.Familia)
+                    End If
+                    CargarBitacora(_usuarioEntity.Usuario)
+
+                    ''Select Case _usuarioEntity.Familia.ToString
+                    'Case 1
+                    'ScriptManager.RegisterClientScriptBlock(Me, Me.GetType, "Bienvenido Webmaster", "alert('Bienvenido WebMaster')", True)
+                    'Case 2
+                    'ScriptManager.RegisterClientScriptBlock(Me, Me.GetType, "Bienvenido administrador", "alert('Bienvenido Administrador')", True)
+                    'Case 3
+                    'ScriptManager.RegisterClientScriptBlock(Me, Me.GetType, "Bienvenido Usuario", "alert('Bienvenido Cliente')", True)
+                    'Case Else
+
+                    'End Select
+                    Response.Redirect("/Default", True)
+
                 Else
-                    FormsAuthentication.SetAuthCookie(UserName.Text, False)
+                    _usuarioEntity.Cant_Bloqueos += 1
                 End If
-                If Roles.IsUserInRole(_usuarioEntity.Usuario, _usuarioEntity.Familia) = False Then
-                    Roles.AddUserToRole(_usuarioEntity.Usuario, _usuarioEntity.Familia)
-                End If
-                CargarBitacora(_usuarioEntity.Usuario)
-                Select Case _usuarioEntity.Familia.ToString
-                    Case "1"
-                        ScriptManager.RegisterClientScriptBlock(Me, Me.GetType, "Bienvenido Webmaster", "alert('Bienvenido WebMaster')", True)
-                    Case "2"
-                        ScriptManager.RegisterClientScriptBlock(Me, Me.GetType, "Bienvenido administrador", "alert('Bienvenido Administrador')", True)
-                    Case "3"
-                        ScriptManager.RegisterClientScriptBlock(Me, Me.GetType, "Bienvenido Usuario", "alert('Bienvenido Cliente')", True)
-                    Case Else
-
-                End Select
-                Response.Redirect("/Default", True)
-
-            Else
-                _usuarioEntity.Cant_Bloqueos += 1
             End If
         Catch ex As Exception
             If Not TryCast(ex, Entity.Excepcion_Login) Is Nothing Then

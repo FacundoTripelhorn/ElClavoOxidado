@@ -52,9 +52,12 @@
     <script type="text/javascript" src="Scripts/sha.js"></script>
     <script type="text/javascript">
         function getHash() {
-        var hashInput = document.getElementById("<%=Password.ClientID%>");
-        var hash = new jsSHA(hashInput.value, "TEXT");
-        var hashOutput = document.getElementById("<%=Password.ClientID%>");
-        hashOutput.value = hash.getHash("SHA-256", "HEX");
+            var hashInput = document.getElementById("<%=Password.ClientID%>");
+            if (hashInput.value.length > 5) {
+                var hash = new jsSHA(hashInput.value, "TEXT");
+                var hashOutput = document.getElementById("<%=Password.ClientID%>");
+                hashOutput.value = hash.getHash("SHA-256", "HEX");
+            } 
+        
       }</script>
 </asp:Content>
