@@ -27,7 +27,6 @@
                 Dim _ex As New Entity.Excepcion_Login("Usuario Bloqueado")
                 Throw _ex
             End If
-
             Dim _ex2 As New Entity.Excepcion_Login("Password invalida")
             Throw _ex2
         End If

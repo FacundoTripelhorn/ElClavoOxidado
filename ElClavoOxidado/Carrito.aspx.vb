@@ -5,4 +5,11 @@
 
     End Sub
 
+
+
+    Private Sub Carrito_PreLoad(sender As Object, e As EventArgs) Handles Me.PreLoad
+        If Not Context.User.IsInRole("2") Then
+            Response.Redirect("Default", True)
+        End If
+    End Sub
 End Class

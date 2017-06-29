@@ -6,55 +6,7 @@ ElClavoOxidado
 </name>
 </assembly>
 <members>
-<member name="F:ElClavoOxidado.UserManager.GrillaUsuarios">
-	<summary>
-Control GrillaUsuarios.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ElClavoOxidado.UserManager.UsuarioLbl">
-	<summary>
-Control UsuarioLbl.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ElClavoOxidado.UserManager.Username">
-	<summary>
-Control Username.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ElClavoOxidado.UserManager.FamiliaLbl">
-	<summary>
-Control FamiliaLbl.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ElClavoOxidado.UserManager.Familia">
-	<summary>
-Control Familia.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ElClavoOxidado.UserManager.UpdateUsuarioBtn">
-	<summary>
-Control UpdateUsuarioBtn.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="P:ElClavoOxidado.My.MyWebExtension.Computer">
+<member name="P:ElClavoOxidado.My.MyWebExtension.Computer">
 	<summary>
  Devuelve información sobre el equipo host.
  </summary>
@@ -250,6 +202,54 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:ElClavoOxidado.ForgotPassword.DisplayEmail">
 	<summary>
 Control DisplayEmail.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.UserManager.GrillaUsuarios">
+	<summary>
+Control GrillaUsuarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.UserManager.UsuarioLbl">
+	<summary>
+Control UsuarioLbl.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.UserManager.Username">
+	<summary>
+Control Username.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.UserManager.FamiliaLbl">
+	<summary>
+Control FamiliaLbl.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.UserManager.Familia">
+	<summary>
+Control Familia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.UserManager.UpdateUsuarioBtn">
+	<summary>
+Control UpdateUsuarioBtn.
 </summary>
 	<remarks>
 Campo generado automáticamente.

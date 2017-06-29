@@ -10,7 +10,7 @@ Public Class LogIn
 
 
     Protected Sub LogInBtn_Click(sender As Object, e As EventArgs) Handles LogInBtn.Click
-        _usuarioEntity = New Entity.Usuario With {.Usuario = UserName.Text, .Password = Password.Text}
+        _usuarioEntity = New Entity.Usuario With {.Usuario = UserName.Text, .Password = Password.Text, .Cant_Bloqueos = Session("cant_Intentos")}
         Try
             If Password.Text.Length > 5 Then
                 If _usuarioNeg.Validar_Login(_usuarioEntity, _usuarioEntity.Password) Then
@@ -23,38 +23,23 @@ Public Class LogIn
                         Roles.AddUserToRole(_usuarioEntity.Usuario, _usuarioEntity.Familia)
                     End If
                     CargarBitacora(_usuarioEntity.Usuario)
-
-                    ''Select Case _usuarioEntity.Familia.ToString
-                    'Case 1
-                    'ScriptManager.RegisterClientScriptBlock(Me, Me.GetType, "Bienvenido Webmaster", "alert('Bienvenido WebMaster')", True)
-                    'Case 2
-                    'ScriptManager.RegisterClientScriptBlock(Me, Me.GetType, "Bienvenido administrador", "alert('Bienvenido Administrador')", True)
-                    'Case 3
-                    'ScriptManager.RegisterClientScriptBlock(Me, Me.GetType, "Bienvenido Usuario", "alert('Bienvenido Cliente')", True)
-                    'Case Else
-
-                    'End Select
                     Response.Redirect("/Default", True)
-
                 Else
-                    _usuarioEntity.Cant_Bloqueos += 1
                 End If
             End If
         Catch ex As Exception
             If Not TryCast(ex, Entity.Excepcion_Login) Is Nothing Then
                 Dim miError As Entity.Excepcion_Login = DirectCast(ex, Entity.Excepcion_Login)
                 If miError.Descripcion = "Usuario invalido" Then
+                    Session("cant_Intentos") += 1
                     ScriptManager.RegisterClientScriptBlock(Me, Me.GetType, "Usuario Invalido", "alert('Usuario inválido. Si aún no se registro presione la opción Registrarse')", True)
                 ElseIf miError.Descripcion = "Usuario Bloqueado" Then
                     ScriptManager.RegisterClientScriptBlock(Me, Me.GetType, "Usuario bloqueado", "alert('Usuario bloqueado, por favor contactese con el web master')", True)
                 ElseIf miError.Descripcion = "Password invalida" Then
+                    Session("cant_Intentos") += 1
                     ScriptManager.RegisterClientScriptBlock(Me, Me.GetType, "Contraseña invalida", "alert('Contraseña incorrecta')", True)
                 End If
-
-
-
             End If
-
         End Try
     End Sub
 

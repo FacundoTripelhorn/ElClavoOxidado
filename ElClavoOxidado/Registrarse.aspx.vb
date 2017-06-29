@@ -70,4 +70,11 @@ Public Class Registrarse
         _bitacoraEntity.Actividad = "Se ha registrado el usuario " & usuario
         _bitacoraNeg.Alta_Bitacora(_bitacoraEntity)
     End Sub
+
+    Private Sub Registrarse_PreLoad(sender As Object, e As EventArgs) Handles Me.PreLoad
+        Dim isSomeoneLoggedIn As Boolean = HttpContext.Current.User.Identity.IsAuthenticated
+        If isSomeoneLoggedIn Then
+            Response.Redirect("~/Default", True)
+        End If
+    End Sub
 End Class

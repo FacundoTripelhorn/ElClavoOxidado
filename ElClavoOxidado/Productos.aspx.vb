@@ -5,4 +5,11 @@
 
     End Sub
 
+
+
+    Private Sub Productos_PreLoad(sender As Object, e As EventArgs) Handles Me.PreLoad
+        If Not (Context.User.IsInRole("2") Or Context.User.IsInRole("3")) Then
+            Response.Redirect("Default", True)
+        End If
+    End Sub
 End Class
