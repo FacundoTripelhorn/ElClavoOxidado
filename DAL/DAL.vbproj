@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="DAL_BackupRestore.vb" />
     <Compile Include="DAL_Bitacora.vb" />
+    <Compile Include="DAL_Producto.vb" />
     <Compile Include="DAL_Usuario.vb" />
     <Compile Include="Settings.vb" />
     <Compile Include="SQL_Desconectado.vb" />

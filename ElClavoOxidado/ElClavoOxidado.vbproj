@@ -186,6 +186,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Content\slideshow.css" />
     <Content Include="EditarProductos.aspx" />
+    <Content Include="ErrorPage.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Images\atencionycalidad.jpg" />
     <Content Include="Images\bannerferreteria.jpeg" />
@@ -333,6 +334,13 @@
     </Compile>
     <Compile Include="EditarProductos.aspx.vb">
       <DependentUpon>EditarProductos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ErrorPage.aspx.designer.vb">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorPage.aspx.vb">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Global.asax.vb">

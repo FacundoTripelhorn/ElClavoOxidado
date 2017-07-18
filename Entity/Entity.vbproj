@@ -63,8 +63,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bitacora.vb" />
+    <Compile Include="Categoria.vb" />
+    <Compile Include="ErrorBD.vb" />
     <Compile Include="Excepcion_Personalizada.vb" />
     <Compile Include="Excepcion_Login.vb" />
+    <Compile Include="Producto.vb" />
+    <Compile Include="Proveedor.vb" />
     <Compile Include="Usuario.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">

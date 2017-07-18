@@ -14,7 +14,5 @@
             <li><img src="Images/bannerferreteria.jpeg" border="0" alt="Ferreteria" /></li>
         </ul>
     </section>
-
-
 </asp:Content>
 

@@ -35,6 +35,8 @@ Public Class Bitacora
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Try
+            Dim dt As String = Request.Form(txtDate.UniqueID)
+            txtDate.Text = dt
             FiltrarBitacoraPorFecha(Date.Parse(txtDate.Text))
         Catch ex As Exception
 
