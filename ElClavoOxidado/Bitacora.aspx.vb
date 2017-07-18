@@ -21,7 +21,7 @@ Public Class Bitacora
         Try
             Dim mLista As New List(Of Entity.Bitacora)
             For Each elemento As Entity.Bitacora In mListaOriginal
-                If elemento.Fecha.Date = fecha Then
+                If elemento.Fecha.Date = fecha.Date Then
                     mLista.Add(elemento)
                 End If
             Next
@@ -35,7 +35,7 @@ Public Class Bitacora
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Try
-
+            FiltrarBitacoraPorFecha(Date.Parse(txtDate.Text))
         Catch ex As Exception
 
         End Try

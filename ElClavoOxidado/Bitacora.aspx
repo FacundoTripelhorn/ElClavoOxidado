@@ -2,7 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
      <asp:TextBox ID="txtDate" runat="server" ReadOnly = "true"></asp:TextBox>
-    <asp:Button ID="Button1" runat="server" Text="Filtrar" Width="74px" />
+    <asp:Button ID="Button1" runat="server" Text="Filtrar" cssclass="btn btn-default" Width="74px" />
     <link rel="stylesheet" href="Content/estilo.css" />
     <br />
     <div class="container">

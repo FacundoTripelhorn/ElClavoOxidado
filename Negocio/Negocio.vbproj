@@ -62,6 +62,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BackupRestore.vb" />
     <Compile Include="Bitacora.vb" />
     <Compile Include="Usuario.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />

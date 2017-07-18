@@ -25,6 +25,10 @@ Public Class SQL_Desconectado
         End Try
     End Sub
 
+    Public Sub CambiarBase(_string As String)
+        _sqlConnection.ChangeDatabase(_string)
+    End Sub
+
     Public Sub ConexionFinalizar()
         Try
             _sqlConnection.Close()
