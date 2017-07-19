@@ -64,6 +64,9 @@
   <ItemGroup>
     <Compile Include="BackupRestore.vb" />
     <Compile Include="Bitacora.vb" />
+    <Compile Include="Categoria.vb" />
+    <Compile Include="Producto.vb" />
+    <Compile Include="Proveedor.vb" />
     <Compile Include="Usuario.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">

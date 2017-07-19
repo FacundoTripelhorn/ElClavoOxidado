@@ -206,20 +206,56 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member>
 <member name="F:ElClavoOxidado._Default._BuscarTxt">
 <summary>
-Control BuscarTxt.
+BuscarTxt control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:ElClavoOxidado._Default._BuscarBtn">
 <summary>
-Control BuscarBtn.
+BuscarBtn control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ElClavoOxidado.ErrorPage._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ElClavoOxidado.ErrorPage._GrillaError">
+<summary>
+GrillaError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ElClavoOxidado.ErrorPage._Nombre">
+<summary>
+Nombre control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ElClavoOxidado.ErrorPage._RestoreBtn">
+<summary>
+RestoreBtn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:ElClavoOxidado.LogIn._ErrorMessage">
