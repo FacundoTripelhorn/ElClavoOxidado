@@ -50,7 +50,7 @@
                 showOn: 'button',
                 buttonImageOnly: true,
                 buttonImage: 'https://s-media-cache-ak0.pinimg.com/736x/c0/74/6d/c0746d1a59f56b5147e1d71c385c2cef--save-the-date-calendar-icon-png.jpg',
-                dateformat: "dd-mm-yy",
+                dateFormat: "dd-mm-yy",
             });
         });
     </script>

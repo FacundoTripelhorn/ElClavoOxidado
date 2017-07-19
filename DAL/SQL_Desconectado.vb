@@ -64,8 +64,9 @@ Public Class SQL_Desconectado
 
             mDs = New DataSet
             mDa.Fill(mDs)
+            ConexionFinalizar()
         Catch ex As Exception
-            '
+            ConexionFinalizar()
         End Try
         Return mDs
     End Function
@@ -90,7 +91,9 @@ Public Class SQL_Desconectado
 
             '4) Ejecutar y esperar el resultado.
             Return unComando.ExecuteScalar()
+            ConexionFinalizar()
         Catch ex As Exception
+            ConexionFinalizar()
             Return -1
         End Try
     End Function
@@ -117,7 +120,23 @@ Public Class SQL_Desconectado
 
             '4) Ejecutar y esperar el resultado.
             unComando.ExecuteNonQuery()
+            ConexionFinalizar()
         Catch ex As Exception
+            ConexionFinalizar()
+        End Try
+    End Sub
+
+    Public Sub EjecutarConsulta(_consulta As String)
+        Dim _comando As New SqlCommand
+        Try
+            _comando.Connection = _sqlConnection
+            _comando.CommandText = _consulta
+
+
+            _comando.ExecuteNonQuery()
+            _comando.Connection.Close()
+        Catch ex As Exception
+            _comando.connection.close
         End Try
     End Sub
 End Class

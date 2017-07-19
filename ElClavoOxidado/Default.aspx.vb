@@ -30,8 +30,9 @@ Public Class _Default
                 _id += 1
             End If
         Next
-        If _listaError.Count > 0 Then
+        If _listaError.Count > 0 And Context.User.IsInRole("1") Then
             Session("ListaError") = _listaError
+            Session("CheckError") = 1
             Response.Redirect("ErrorPage", True)
         End If
     End Sub

@@ -27,7 +27,6 @@ Public Class Bitacora
             Next
             GrillaBitacora.DataSource = mLista
             GrillaBitacora.DataBind()
-            '  GrillaBitacora.
         Catch ex As Exception
 
         End Try
