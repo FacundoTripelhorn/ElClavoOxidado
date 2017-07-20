@@ -2,6 +2,17 @@
     Inherits System.Web.UI.Page
 
     Dim _backup As New Negocio.BackupRestore
+
+    Protected Property SuccessMessageText() As String
+        Get
+            Return m_SuccessMessage
+        End Get
+        Private Set(value As String)
+            m_SuccessMessage = value
+        End Set
+    End Property
+    Private m_SuccessMessage As String
+
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 
     End Sub
@@ -19,6 +30,9 @@
         Dim _nombre As String = Nombre.Text
         _backup.Restore_BD(_path, _nombre)
         CargarBitacora(_usuarioEntity.Usuario, _nombre)
+        SuccessMessageText = "La base de datos se restauró correctamente"
+        successMessage.Visible = True
+        Nombre.Text = ""
     End Sub
 
     Private Sub CargarBitacora(_usuario As String, _nombre As String)

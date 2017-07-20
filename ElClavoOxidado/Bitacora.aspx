@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     
     <link rel="stylesheet" href="Content/estilo.css" />
-   
+   <br />
     <div class="container">
         <div class="Filtro">
             <asp:TextBox ID="txtDate" runat="server" ReadOnly = "true" CssClass="FiltroTxt"></asp:TextBox>

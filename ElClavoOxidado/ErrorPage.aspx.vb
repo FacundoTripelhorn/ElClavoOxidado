@@ -24,6 +24,7 @@
         _backup.Restore_BD(_path, _nombre)
         Session("CheckError") = 0
         CargarBitacora(_usuarioEntity.Usuario, _nombre)
+        Response.Redirect("Default", True)
     End Sub
 
     Private Sub CargarBitacora(_usuario As String, _nombre As String)

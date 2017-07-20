@@ -14,6 +14,15 @@ Option Explicit On
 Partial Public Class Restore
     
     '''<summary>
+    '''successMessage control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents successMessage As Global.System.Web.UI.WebControls.PlaceHolder
+    
+    '''<summary>
     '''Nombre control.
     '''</summary>
     '''<remarks>

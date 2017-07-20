@@ -1,6 +1,13 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site.Master" CodeBehind="Backup.aspx.vb" Inherits="ElClavoOxidado.Backup" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <div class="form-group">
+     <br />
+     <div>
+        <asp:PlaceHolder runat="server" ID="successMessage" Visible="false" ViewStateMode="Disabled">
+            <p class="text-success"><%:SuccessMessageText %></p>
+        </asp:PlaceHolder>
+    </div>
+    
+     <div class="form-group">
         <asp:Label runat="server" AssociatedControlID="Nombre" CssClass="col-md-2 control-label">Nombre del archivo</asp:Label>
         <div class="col-md-10">
             <asp:TextBox runat="server" ID="Nombre" CssClass="form-control" />
