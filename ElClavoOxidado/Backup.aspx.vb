@@ -31,10 +31,10 @@ Public Class Backup
             Directory.CreateDirectory("C:\BK\")
         End If
         Dim _path As String = "C:\BK\"
-            Dim _nombre As String = Nombre.Text
+        Dim _nombre As String = Nombre.Text
             _backup.Crear_Backup(_path, _nombre)
         CargarBitacora(_usuarioEntity.Usuario, _nombre)
-        SuccessMessageText = "La base de datos se restauró correctamente"
+        SuccessMessageText = "Se ha realizado el backup de la base exitosamente en el archivo " + _path + _nombre + ".bak"
         successMessage.Visible = True
         Nombre.Text = ""
     End Sub
