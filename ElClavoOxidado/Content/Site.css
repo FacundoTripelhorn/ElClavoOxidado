@@ -4,6 +4,19 @@ body {
     padding-bottom: 20px;
 }
 
+.ProdGallery {
+    margin: 5px;
+    border: 1px  #ccc;
+    float: left;
+    width: 180px;
+}
+div.ProdGallery img {
+    width: 100%;
+    height: auto;
+}
+div.ProdGallery:hover {
+    border: 1px solid #777;
+}
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
@@ -36,3 +49,11 @@ input[type="select"] {
         padding: 0;
     }
 }
+
+hr{
+    clear:both;
+}
+footer{
+    clear:both;
+}
+

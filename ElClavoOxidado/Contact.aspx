@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Contacto" Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.vb" Inherits="ElClavoOxidado.Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h2><%: Title %>.</h2>
+    <h2><%: Title %></h2>
     <p>Puedes comunicarte con nosotros por teléfono y vía email o si lo prefiere por medio del siguiente formulario</p>
     <br />
     <br />

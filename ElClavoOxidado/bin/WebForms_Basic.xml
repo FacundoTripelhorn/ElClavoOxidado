@@ -6,6 +6,37 @@ ElClavoOxidado
 </name>
 </assembly>
 <members>
+<member name="T:ElClavoOxidado.My.MyWebExtension">
+ <summary>
+ Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:ElClavoOxidado.My.MyWebExtension.Computer">
+ <summary>
+ Devuelve información sobre el equipo host.
+ </summary>
+</member>
+<member name="P:ElClavoOxidado.My.MyWebExtension.User">
+ <summary>
+ Devuelve información del usuario web actual.
+ </summary>
+</member>
+<member name="P:ElClavoOxidado.My.MyWebExtension.Request">
+ <summary>
+ Devuelve un objeto Request.
+ </summary>
+</member>
+<member name="P:ElClavoOxidado.My.MyWebExtension.Response">
+ <summary>
+ Devuelve un objeto Response.
+ </summary>
+</member>
+<member name="P:ElClavoOxidado.My.MyWebExtension.Log">
+ <summary>
+ Devuelve el objeto de registro Asp.
+ </summary>
+</member>
 <member name="F:ElClavoOxidado.ForgotPassword._loginForm">
 <summary>
 Control loginForm.
@@ -166,6 +197,33 @@ GrillaBitacora control.
 <remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ElClavoOxidado.Carrito._gvShoppingCart">
+<summary>
+Control gvShoppingCart.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ElClavoOxidado.Carrito._DropDownList1">
+<summary>
+Control DropDownList1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ElClavoOxidado.Carrito._txtCosto">
+<summary>
+Control txtCosto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:ElClavoOxidado.Contact._NombreYApellido">
@@ -411,36 +469,23 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="T:ElClavoOxidado.My.MyWebExtension">
- <summary>
- Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
- </summary>
- <remarks></remarks>
+<member name="F:ElClavoOxidado.Productos._BuscarTxt">
+<summary>
+Control BuscarTxt.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
 </member>
-<member name="P:ElClavoOxidado.My.MyWebExtension.Computer">
- <summary>
- Devuelve información sobre el equipo host.
- </summary>
-</member>
-<member name="P:ElClavoOxidado.My.MyWebExtension.User">
- <summary>
- Devuelve información del usuario web actual.
- </summary>
-</member>
-<member name="P:ElClavoOxidado.My.MyWebExtension.Request">
- <summary>
- Devuelve un objeto Request.
- </summary>
-</member>
-<member name="P:ElClavoOxidado.My.MyWebExtension.Response">
- <summary>
- Devuelve un objeto Response.
- </summary>
-</member>
-<member name="P:ElClavoOxidado.My.MyWebExtension.Log">
- <summary>
- Devuelve el objeto de registro Asp.
- </summary>
+<member name="F:ElClavoOxidado.Productos._BuscarBtn">
+<summary>
+Control BuscarBtn.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
 </member>
 <member name="F:ElClavoOxidado.Registrarse._ErrorMessage">
 <summary>
@@ -639,6 +684,36 @@ Control ViewSwitcher1.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
+</member>
+<member name="T:ElClavoOxidado.CostoEnvioWebService.ClavoService">
+<remarks/>
+</member>
+<member name="M:ElClavoOxidado.CostoEnvioWebService.ClavoService.#ctor">
+<remarks/>
+</member>
+<member name="E:ElClavoOxidado.CostoEnvioWebService.ClavoService.CostoEnvioCompleted">
+<remarks/>
+</member>
+<member name="M:ElClavoOxidado.CostoEnvioWebService.ClavoService.CostoEnvio(System.String)">
+<remarks/>
+</member>
+<member name="M:ElClavoOxidado.CostoEnvioWebService.ClavoService.CostoEnvioAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:ElClavoOxidado.CostoEnvioWebService.ClavoService.CostoEnvioAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:ElClavoOxidado.CostoEnvioWebService.ClavoService.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:ElClavoOxidado.CostoEnvioWebService.CostoEnvioCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ElClavoOxidado.CostoEnvioWebService.CostoEnvioCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ElClavoOxidado.CostoEnvioWebService.CostoEnvioCompletedEventArgs.Result">
+<remarks/>
 </member>
 </members>
 </doc>

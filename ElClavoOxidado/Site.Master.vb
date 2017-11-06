@@ -47,9 +47,9 @@ Public Class SiteMaster
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Try
-            Roles.CreateRole("1")
-            Roles.CreateRole("2")
-            Roles.CreateRole("3")
+            'Roles.CreateRole("1")
+            'Roles.CreateRole("2")
+            'Roles.CreateRole("3")
         Catch ex As Exception
 
         End Try

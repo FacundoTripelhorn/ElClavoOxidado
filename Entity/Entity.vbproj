@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bitacora.vb" />
+    <Compile Include="Carrito.vb" />
     <Compile Include="Categoria.vb" />
     <Compile Include="ErrorBD.vb" />
     <Compile Include="Excepcion_Personalizada.vb" />

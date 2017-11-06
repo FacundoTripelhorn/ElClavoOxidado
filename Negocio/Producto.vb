@@ -1,6 +1,7 @@
 ﻿Imports DAL
 Public Class Producto
 
+
     Dim _dal As New DAL_Producto
 
     Public Function Check_Producto(_producto As Entity.Producto) As Boolean

@@ -4,6 +4,12 @@
     Property Proveedor As Proveedor
     Property Descripcion As String
     Property Precio As Decimal
+    ReadOnly Property total As Decimal
+        Get
+            Return Precio * cantidad
+        End Get
+    End Property
+    Property cantidad As Integer
 
     Sub New()
 
