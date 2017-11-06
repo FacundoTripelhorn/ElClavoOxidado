@@ -6,36 +6,31 @@ WebServices
 </name>
 </assembly>
 <members>
-<member name="T:WebServices.My.MyWebExtension">
- <summary>
- Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
- </summary>
- <remarks></remarks>
-</member>
 <member name="P:WebServices.My.MyWebExtension.Computer">
- <summary>
+	<summary>
  Devuelve información sobre el equipo host.
  </summary>
-</member>
-<member name="P:WebServices.My.MyWebExtension.User">
- <summary>
+</member><member name="P:WebServices.My.MyWebExtension.User">
+	<summary>
  Devuelve información del usuario web actual.
  </summary>
-</member>
-<member name="P:WebServices.My.MyWebExtension.Request">
- <summary>
+</member><member name="P:WebServices.My.MyWebExtension.Request">
+	<summary>
  Devuelve un objeto Request.
  </summary>
-</member>
-<member name="P:WebServices.My.MyWebExtension.Response">
- <summary>
+</member><member name="P:WebServices.My.MyWebExtension.Response">
+	<summary>
  Devuelve un objeto Response.
  </summary>
-</member>
-<member name="P:WebServices.My.MyWebExtension.Log">
- <summary>
+</member><member name="P:WebServices.My.MyWebExtension.Log">
+	<summary>
  Devuelve el objeto de registro Asp.
  </summary>
+</member><member name="T:WebServices.My.MyWebExtension">
+	<summary>
+ Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
+ </summary>
+	<remarks></remarks>
 </member>
 </members>
 </doc>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Advertisements>
+   <Ad>
+      <ImageUrl>Images\atencionycalidad.jpg</ImageUrl>
+      <NavigateUrl>http://www.google.com</NavigateUrl>
+      <AlternateText>
+         atencion y calidad
+      </AlternateText>
+      <Impressions>20</Impressions>
+      <Keyword>atencion</Keyword>
+   </Ad>
+
+   <Ad>
+      <ImageUrl>Images\nuestramarcas.jpg</ImageUrl>
+      <NavigateUrl>http://www.google.com</NavigateUrl>
+      <AlternateText>marcas</AlternateText>
+      <Impressions>20</Impressions>
+      <Keyword>banner</Keyword>
+   </Ad>
+</Advertisements>

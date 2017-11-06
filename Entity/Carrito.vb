@@ -1,4 +1,5 @@
-﻿Public Class Carrito
+﻿Imports System.Xml
+Public Class Carrito
     Dim mListaProd As New List(Of Producto)
 
     Public Sub agregarProd(pProd As Producto)

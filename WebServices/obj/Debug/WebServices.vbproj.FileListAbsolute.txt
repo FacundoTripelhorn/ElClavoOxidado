@@ -1,0 +1,12 @@
+C:\Users\Facu\Desktop\ElClavoOxidado\WebServices\bin\WebServices.dll.config
+C:\Users\Facu\Desktop\ElClavoOxidado\WebServices\bin\WebServices.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\WebServices\bin\WebServices.pdb
+C:\Users\Facu\Desktop\ElClavoOxidado\WebServices\bin\WebServices.xml
+C:\Users\Facu\Desktop\ElClavoOxidado\WebServices\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\WebServices\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Facu\Desktop\ElClavoOxidado\WebServices\obj\Debug\WebServices.vbprojResolveAssemblyReference.cache
+C:\Users\Facu\Desktop\ElClavoOxidado\WebServices\obj\Debug\WebServices.Resources.resources
+C:\Users\Facu\Desktop\ElClavoOxidado\WebServices\obj\Debug\WebServices.vbproj.GenerateResource.Cache
+C:\Users\Facu\Desktop\ElClavoOxidado\WebServices\obj\Debug\WebServices.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\WebServices\obj\Debug\WebServices.xml
+C:\Users\Facu\Desktop\ElClavoOxidado\WebServices\obj\Debug\WebServices.pdb

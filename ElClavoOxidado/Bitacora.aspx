@@ -14,6 +14,10 @@
         <asp:GridView ID="GrillaBitacora" runat="server"  >
             <HeaderStyle BackColor="#BB9241" Height="30px" />
         </asp:GridView>
+<br />
+        <br />
+        <br />
+        <asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="AdRotator.xml" Width="100%" />
     </div>
 
     <style type="text/css">

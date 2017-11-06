@@ -36,5 +36,10 @@
         </asp:DropDownList>
         <asp:Button CssClass="btn btn-default" Text="Calcular" runat="server"  onclick="CalcularEnvio_Click"/>
         <asp:TextBox cssclass="BuscarTxt" ID="txtCosto" runat="server" readonly="true"/>
+        
+    </div>
+    <div style="float:right">
+        <br /><br />
+        <asp:Button Id="GuardarBtn" CssClass="btn btn-default" Text="Guardar compra" runat="server" />
     </div>
 </asp:Content>

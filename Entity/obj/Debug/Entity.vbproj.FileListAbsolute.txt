@@ -27,7 +27,6 @@ C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para l
 C:\Users\Facu\Desktop\ElClavoOxidado\Entity\bin\Debug\Entity.dll
 C:\Users\Facu\Desktop\ElClavoOxidado\Entity\bin\Debug\Entity.pdb
 C:\Users\Facu\Desktop\ElClavoOxidado\Entity\bin\Debug\Entity.xml
-C:\Users\Facu\Desktop\ElClavoOxidado\Entity\obj\Debug\Entity.vbprojResolveAssemblyReference.cache
 C:\Users\Facu\Desktop\ElClavoOxidado\Entity\obj\Debug\Entity.Resources.resources
 C:\Users\Facu\Desktop\ElClavoOxidado\Entity\obj\Debug\Entity.vbproj.GenerateResource.Cache
 C:\Users\Facu\Desktop\ElClavoOxidado\Entity\obj\Debug\Entity.dll

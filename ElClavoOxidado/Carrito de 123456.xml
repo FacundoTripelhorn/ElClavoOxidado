@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--Carrito de compras de 123456-->
+<Carrito>
+  <Producto>
+    <Codigo>1</Codigo>
+    <Descripcion>Producto1</Descripcion>
+    <Precio>2,5</Precio>
+    <Cantidad>4</Cantidad>
+    <Total>10,0</Total>
+  </Producto>
+  <Producto>
+    <Codigo>2</Codigo>
+    <Descripcion>Producto2</Descripcion>
+    <Precio>6,4</Precio>
+    <Cantidad>2</Cantidad>
+    <Total>12,8</Total>
+  </Producto>
+  <Total del carrito>22,8</Total del carrito>
+</Carrito>

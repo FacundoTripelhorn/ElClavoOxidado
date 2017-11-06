@@ -1,4 +1,5 @@
-﻿Public Class Carrito
+﻿Imports System.Xml
+Public Class Carrito
     Inherits System.Web.UI.Page
 
     Dim mCarrito As Entity.Carrito
@@ -29,7 +30,7 @@
         'End If
         DirectCast(Session("Carrito"), Entity.Carrito).agregarProd(New Entity.Producto With {.Codigo = 1, .Descripcion = "Producto1", .cantidad = 1, .Precio = 2.5})
         DirectCast(Session("Carrito"), Entity.Carrito).agregarProd(New Entity.Producto With {.Codigo = 1, .Descripcion = "Producto1", .cantidad = 1, .Precio = 2.5})
-        DirectCast(Session("Carrito"), Entity.Carrito).agregarProd(New Entity.Producto With {.Codigo = 2, .Descripcion = "Producto2", .cantidad = 1, .Precio = 6.4})
+        DirectCast(Session("Carrito"), Entity.Carrito).agregarProd(New Entity.Producto With {.Codigo = 2, .Descripcion = "Producto2", .cantidad = 1, .Precio = 6.4000000000000004})
     End Sub
 
     Private Sub gvShoppingCart_RowDataBound(sender As Object, e As GridViewRowEventArgs) Handles gvShoppingCart.RowDataBound
@@ -53,5 +54,51 @@
             txtCosto.Text = "$" + FormatNumber(mWebService.CostoEnvio(DropDownList1.Text), 2).ToString
         Catch
         End Try
+    End Sub
+
+    Private Sub GuardarBtn_Click(sender As Object, e As EventArgs) Handles GuardarBtn.Click
+        mCarrito = DirectCast(Session("Carrito"), Entity.Carrito)
+        Dim vEscritor As New XmlTextWriter(Server.MapPath("Carrito de " & Context.User.Identity.Name & ".xml"), Nothing)
+        vEscritor.Formatting = Formatting.Indented
+        vEscritor.WriteStartDocument()
+        vEscritor.WriteComment("Carrito de compras de " & Context.User.Identity.Name)
+        vEscritor.WriteStartElement("Carrito")
+        For Each Producto As Entity.Producto In mCarrito.getLista
+            vEscritor.WriteStartElement("Producto")
+            vEscritor.WriteStartElement("Codigo", "")
+            vEscritor.WriteString(Producto.Codigo)
+            vEscritor.WriteEndElement()
+            vEscritor.WriteStartElement("Descripcion", "")
+            vEscritor.WriteString(Producto.Descripcion)
+            vEscritor.WriteEndElement()
+            vEscritor.WriteStartElement("Precio", "")
+            vEscritor.WriteString(Producto.Precio)
+            vEscritor.WriteEndElement()
+            vEscritor.WriteStartElement("Cantidad", "")
+            vEscritor.WriteString(Producto.cantidad)
+            vEscritor.WriteEndElement()
+            vEscritor.WriteStartElement("Total", "")
+            vEscritor.WriteString(Producto.total)
+            vEscritor.WriteEndElement()
+            vEscritor.WriteEndElement()
+        Next
+        vEscritor.WriteStartElement("Total del carrito", "")
+        vEscritor.WriteString(mCarrito.Total)
+        vEscritor.WriteEndDocument()
+        vEscritor.Flush()
+        vEscritor.Close()
+        MostrarMensaje()
+    End Sub
+
+    Private Sub MostrarMensaje()
+        Dim message As String = "El carrito se guardó con éxito"
+        Dim sb As New System.Text.StringBuilder()
+        sb.Append("<script type = 'text/javascript'>")
+        sb.Append("window.onload=function(){")
+        sb.Append("alert('")
+        sb.Append(message)
+        sb.Append("')};")
+        sb.Append("</script>")
+        ClientScript.RegisterClientScriptBlock(Me.GetType(), "alert", sb.ToString())
     End Sub
 End Class

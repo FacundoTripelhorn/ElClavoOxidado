@@ -6,714 +6,643 @@ ElClavoOxidado
 </name>
 </assembly>
 <members>
-<member name="T:ElClavoOxidado.My.MyWebExtension">
- <summary>
- Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
- </summary>
- <remarks></remarks>
-</member>
 <member name="P:ElClavoOxidado.My.MyWebExtension.Computer">
- <summary>
+	<summary>
  Devuelve información sobre el equipo host.
  </summary>
-</member>
-<member name="P:ElClavoOxidado.My.MyWebExtension.User">
- <summary>
+</member><member name="P:ElClavoOxidado.My.MyWebExtension.User">
+	<summary>
  Devuelve información del usuario web actual.
  </summary>
-</member>
-<member name="P:ElClavoOxidado.My.MyWebExtension.Request">
- <summary>
+</member><member name="P:ElClavoOxidado.My.MyWebExtension.Request">
+	<summary>
  Devuelve un objeto Request.
  </summary>
-</member>
-<member name="P:ElClavoOxidado.My.MyWebExtension.Response">
- <summary>
+</member><member name="P:ElClavoOxidado.My.MyWebExtension.Response">
+	<summary>
  Devuelve un objeto Response.
  </summary>
-</member>
-<member name="P:ElClavoOxidado.My.MyWebExtension.Log">
- <summary>
+</member><member name="P:ElClavoOxidado.My.MyWebExtension.Log">
+	<summary>
  Devuelve el objeto de registro Asp.
  </summary>
-</member>
-<member name="F:ElClavoOxidado.ForgotPassword._loginForm">
-<summary>
-Control loginForm.
+</member><member name="T:ElClavoOxidado.My.MyWebExtension">
+	<summary>
+ Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:ElClavoOxidado.Restore.successMessage">
+	<summary>
+successMessage control.
 </summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member>
-<member name="F:ElClavoOxidado.ForgotPassword._ErrorMessage">
-<summary>
-Control ErrorMessage.
+</member><member name="F:ElClavoOxidado.Restore.Nombre">
+	<summary>
+Nombre control.
 </summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member>
-<member name="F:ElClavoOxidado.ForgotPassword._FailureText">
-<summary>
-Control FailureText.
+</member><member name="F:ElClavoOxidado.Restore.RestoreBtn">
+	<summary>
+RestoreBtn control.
 </summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member>
-<member name="F:ElClavoOxidado.ForgotPassword._Email">
-<summary>
-Control Email.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.ForgotPassword._DisplayEmail">
-<summary>
-Control DisplayEmail.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.ResetPassword._ErrorMessage">
-<summary>
-Control ErrorMessage.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.ResetPassword._Email">
-<summary>
-Control de correo electrónico.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.ResetPassword._Password">
-<summary>
-Control de contraseña.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.ResetPassword._ConfirmPassword">
-<summary>
-Control confirmPassword.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.ResetPasswordConfirmation._login">
-<summary>
+</member><member name="F:ElClavoOxidado.ResetPasswordConfirmation.login">
+	<summary>
 Control login.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:ElClavoOxidado.About._Herramientas1">
-<summary>
-Control Herramientas1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.About._Herramientas2">
-<summary>
-Control Herramientas2.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.Backup._successMessage">
-<summary>
-successMessage control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.Backup._Nombre">
-<summary>
-Nombre control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.Backup._BackupBtn">
-<summary>
-BackupBtn control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.Bitacora._txtDate">
-<summary>
-txtDate control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.Bitacora._Button1">
-<summary>
-Button1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.Bitacora._GrillaBitacora">
-<summary>
-GrillaBitacora control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.Carrito._gvShoppingCart">
-<summary>
-Control gvShoppingCart.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.Carrito._DropDownList1">
-<summary>
-Control DropDownList1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.Carrito._txtCosto">
-<summary>
-Control txtCosto.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.Contact._NombreYApellido">
-<summary>
-Control NombreYApellido.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.Contact._Email">
-<summary>
-Control Email.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.Contact._Telefono">
-<summary>
-Control Telefono.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.Contact._Comentarios">
-<summary>
-Control Comentarios.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.Contact._ContactoImg">
-<summary>
-Control ContactoImg.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado._Default._BuscarTxt">
-<summary>
-BuscarTxt control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado._Default._BuscarBtn">
-<summary>
-BuscarBtn control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.ErrorPage._Label1">
-<summary>
-Label1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.ErrorPage._GrillaError">
-<summary>
-GrillaError control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.ErrorPage._Nombre">
-<summary>
-Nombre control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.ErrorPage._RestoreBtn">
-<summary>
-RestoreBtn control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.LogIn._ErrorMessage">
-<summary>
+</member><member name="F:ElClavoOxidado.ResetPassword.ErrorMessage">
+	<summary>
 Control ErrorMessage.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:ElClavoOxidado.LogIn._FailureText">
-<summary>
-Control FailureText.
+</member><member name="F:ElClavoOxidado.ResetPassword.Email">
+	<summary>
+Control de correo electrónico.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:ElClavoOxidado.LogIn._UserName">
-<summary>
-Control UserName.
+</member><member name="F:ElClavoOxidado.ResetPassword.Password">
+	<summary>
+Control de contraseña.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:ElClavoOxidado.LogIn._Password">
-<summary>
-Control Password.
+</member><member name="F:ElClavoOxidado.ResetPassword.ConfirmPassword">
+	<summary>
+Control confirmPassword.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:ElClavoOxidado.LogIn._RememberMe">
-<summary>
-Control RememberMe.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.LogIn._LogInBtn">
-<summary>
-Control LogInBtn.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.LogIn._RegisterHyperLink">
-<summary>
-Control RegisterHyperLink.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.MiCuenta._successMessage">
-<summary>
-Control successMessage.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.MiCuenta._changePasswordHolder">
-<summary>
-Control changePasswordHolder.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.MiCuenta._ContraseñaLbl">
-<summary>
-Control ContraseñaLbl.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.MiCuenta._ContraseñaActual">
-<summary>
-Control ContraseñaActual.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.MiCuenta._ContraseñaNuevaLbl">
-<summary>
-Control ContraseñaNuevaLbl.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.MiCuenta._ContraseñaNueva">
-<summary>
-Control ContraseñaNueva.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.MiCuenta._ConfirmarContraseñaLbl">
-<summary>
-Control ConfirmarContraseñaLbl.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.MiCuenta._ConfirmarContraseña">
-<summary>
-Control ConfirmarContraseña.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.MiCuenta._CambiarContraseñaBtn">
-<summary>
-Control CambiarContraseñaBtn.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.Productos._BuscarTxt">
-<summary>
-Control BuscarTxt.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.Productos._BuscarBtn">
-<summary>
-Control BuscarBtn.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:ElClavoOxidado.Registrarse._ErrorMessage">
-<summary>
+</member><member name="F:ElClavoOxidado.Registrarse.ErrorMessage">
+	<summary>
 Control ErrorMessage.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:ElClavoOxidado.Registrarse._UserName">
-<summary>
+</member><member name="F:ElClavoOxidado.Registrarse.UserName">
+	<summary>
 Control UserName.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:ElClavoOxidado.Registrarse._Email">
-<summary>
+</member><member name="F:ElClavoOxidado.Registrarse.Email">
+	<summary>
 Control Email.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:ElClavoOxidado.Registrarse._Password">
-<summary>
+</member><member name="F:ElClavoOxidado.Registrarse.Password">
+	<summary>
 Control Password.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:ElClavoOxidado.Registrarse._ConfirmPassword">
-<summary>
+</member><member name="F:ElClavoOxidado.Registrarse.ConfirmPassword">
+	<summary>
 Control ConfirmPassword.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:ElClavoOxidado.Registrarse._RegistrarseBtn">
-<summary>
+</member><member name="F:ElClavoOxidado.Registrarse.RegistrarseBtn">
+	<summary>
 Control RegistrarseBtn.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:ElClavoOxidado.Restore._successMessage">
-<summary>
+</member><member name="F:ElClavoOxidado.Bitacora.txtDate">
+	<summary>
+Control txtDate.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.Bitacora.Button1">
+	<summary>
+Control Button1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.Bitacora.GrillaBitacora">
+	<summary>
+Control GrillaBitacora.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.Bitacora.AdRotator1">
+	<summary>
+Control AdRotator1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.Backup.successMessage">
+	<summary>
 successMessage control.
 </summary>
-<remarks>
+	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member>
-<member name="F:ElClavoOxidado.Restore._Nombre">
-<summary>
+</member><member name="F:ElClavoOxidado.Backup.Nombre">
+	<summary>
 Nombre control.
 </summary>
-<remarks>
+	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member>
-<member name="F:ElClavoOxidado.Restore._RestoreBtn">
-<summary>
-RestoreBtn control.
+</member><member name="F:ElClavoOxidado.Backup.BackupBtn">
+	<summary>
+BackupBtn control.
 </summary>
-<remarks>
+	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member>
-<member name="F:ElClavoOxidado.SiteMaster._MainContent">
-<summary>
-Control MainContent.
+</member><member name="F:ElClavoOxidado.Contact.NombreYApellido">
+	<summary>
+Control NombreYApellido.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:ElClavoOxidado.UserManager._GrillaUsuarios">
-<summary>
+</member><member name="F:ElClavoOxidado.Contact.Email">
+	<summary>
+Control Email.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.Contact.Telefono">
+	<summary>
+Control Telefono.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.Contact.Comentarios">
+	<summary>
+Control Comentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.Contact.ContactoImg">
+	<summary>
+Control ContactoImg.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.ForgotPassword.loginForm">
+	<summary>
+Control loginForm.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.ForgotPassword.ErrorMessage">
+	<summary>
+Control ErrorMessage.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.ForgotPassword.FailureText">
+	<summary>
+Control FailureText.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.ForgotPassword.Email">
+	<summary>
+Control Email.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.ForgotPassword.DisplayEmail">
+	<summary>
+Control DisplayEmail.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.Carrito.gvShoppingCart">
+	<summary>
+Control gvShoppingCart.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.Carrito.DropDownList1">
+	<summary>
+Control DropDownList1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.Carrito.txtCosto">
+	<summary>
+Control txtCosto.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.Carrito.GuardarBtn">
+	<summary>
+Control GuardarBtn.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.UserManager.GrillaUsuarios">
+	<summary>
 Control GrillaUsuarios.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:ElClavoOxidado.UserManager._UsuarioLbl">
-<summary>
+</member><member name="F:ElClavoOxidado.UserManager.UsuarioLbl">
+	<summary>
 Control UsuarioLbl.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:ElClavoOxidado.UserManager._Username">
-<summary>
+</member><member name="F:ElClavoOxidado.UserManager.Username">
+	<summary>
 Control Username.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:ElClavoOxidado.UserManager._FamiliaLbl">
-<summary>
+</member><member name="F:ElClavoOxidado.UserManager.FamiliaLbl">
+	<summary>
 Control FamiliaLbl.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:ElClavoOxidado.UserManager._Familia">
-<summary>
+</member><member name="F:ElClavoOxidado.UserManager.Familia">
+	<summary>
 Control Familia.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:ElClavoOxidado.UserManager._UpdateUsuarioBtn">
-<summary>
+</member><member name="F:ElClavoOxidado.UserManager.UpdateUsuarioBtn">
+	<summary>
 Control UpdateUsuarioBtn.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:ElClavoOxidado.Site_Mobile._Head1">
-<summary>
-Control Head1.
+</member><member name="F:ElClavoOxidado.About.Herramientas1">
+	<summary>
+Control Herramientas1.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:ElClavoOxidado.Site_Mobile._HeadContent">
-<summary>
-Control HeadContent.
+</member><member name="F:ElClavoOxidado.About.Herramientas2">
+	<summary>
+Control Herramientas2.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:ElClavoOxidado.Site_Mobile._form1">
-<summary>
-control form1.
+</member><member name="F:ElClavoOxidado.MiCuenta.successMessage">
+	<summary>
+Control successMessage.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:ElClavoOxidado.Site_Mobile._FeaturedContent">
-<summary>
-Control FeaturedContent.
+</member><member name="F:ElClavoOxidado.MiCuenta.changePasswordHolder">
+	<summary>
+Control changePasswordHolder.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:ElClavoOxidado.Site_Mobile._MainContent">
-<summary>
+</member><member name="F:ElClavoOxidado.MiCuenta.ContraseñaLbl">
+	<summary>
+Control ContraseñaLbl.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.MiCuenta.ContraseñaActual">
+	<summary>
+Control ContraseñaActual.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.MiCuenta.ContraseñaNuevaLbl">
+	<summary>
+Control ContraseñaNuevaLbl.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.MiCuenta.ContraseñaNueva">
+	<summary>
+Control ContraseñaNueva.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.MiCuenta.ConfirmarContraseñaLbl">
+	<summary>
+Control ConfirmarContraseñaLbl.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.MiCuenta.ConfirmarContraseña">
+	<summary>
+Control ConfirmarContraseña.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.MiCuenta.CambiarContraseñaBtn">
+	<summary>
+Control CambiarContraseñaBtn.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado._Default.BuscarTxt">
+	<summary>
+BuscarTxt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElClavoOxidado._Default.BuscarBtn">
+	<summary>
+BuscarBtn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElClavoOxidado.Productos.BuscarTxt">
+	<summary>
+Control BuscarTxt.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.Productos.BuscarBtn">
+	<summary>
+Control BuscarBtn.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.SiteMaster.MainContent">
+	<summary>
 Control MainContent.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:ElClavoOxidado.Site_Mobile._ViewSwitcher1">
-<summary>
+</member><member name="M:ElClavoOxidado.CostoEnvioWebService.ClavoService.#ctor">
+	<remarks/>
+</member><member name="E:ElClavoOxidado.CostoEnvioWebService.ClavoService.CostoEnvioCompleted">
+	<remarks/>
+</member><member name="M:ElClavoOxidado.CostoEnvioWebService.ClavoService.CostoEnvio(System.String)">
+	<remarks/>
+</member><member name="M:ElClavoOxidado.CostoEnvioWebService.ClavoService.CostoEnvioAsync(System.String)">
+	<remarks/>
+</member><member name="M:ElClavoOxidado.CostoEnvioWebService.ClavoService.CostoEnvioAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:ElClavoOxidado.CostoEnvioWebService.ClavoService.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:ElClavoOxidado.CostoEnvioWebService.ClavoService">
+	<remarks/>
+</member><member name="T:ElClavoOxidado.CostoEnvioWebService.CostoEnvioCompletedEventHandler">
+	<remarks/>
+</member><member name="P:ElClavoOxidado.CostoEnvioWebService.CostoEnvioCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:ElClavoOxidado.CostoEnvioWebService.CostoEnvioCompletedEventArgs">
+	<remarks/>
+</member><member name="F:ElClavoOxidado.ErrorPage.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElClavoOxidado.ErrorPage.GrillaError">
+	<summary>
+GrillaError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElClavoOxidado.ErrorPage.Nombre">
+	<summary>
+Nombre control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElClavoOxidado.ErrorPage.RestoreBtn">
+	<summary>
+RestoreBtn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ElClavoOxidado.LogIn.ErrorMessage">
+	<summary>
+Control ErrorMessage.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.LogIn.FailureText">
+	<summary>
+Control FailureText.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.LogIn.UserName">
+	<summary>
+Control UserName.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.LogIn.Password">
+	<summary>
+Control Password.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.LogIn.RememberMe">
+	<summary>
+Control RememberMe.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.LogIn.LogInBtn">
+	<summary>
+Control LogInBtn.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.LogIn.RegisterHyperLink">
+	<summary>
+Control RegisterHyperLink.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.Site_Mobile.Head1">
+	<summary>
+Control Head1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.Site_Mobile.HeadContent">
+	<summary>
+Control HeadContent.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.Site_Mobile.form1">
+	<summary>
+control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.Site_Mobile.FeaturedContent">
+	<summary>
+Control FeaturedContent.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.Site_Mobile.MainContent">
+	<summary>
+Control MainContent.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ElClavoOxidado.Site_Mobile.ViewSwitcher1">
+	<summary>
 Control ViewSwitcher1.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="T:ElClavoOxidado.CostoEnvioWebService.ClavoService">
-<remarks/>
-</member>
-<member name="M:ElClavoOxidado.CostoEnvioWebService.ClavoService.#ctor">
-<remarks/>
-</member>
-<member name="E:ElClavoOxidado.CostoEnvioWebService.ClavoService.CostoEnvioCompleted">
-<remarks/>
-</member>
-<member name="M:ElClavoOxidado.CostoEnvioWebService.ClavoService.CostoEnvio(System.String)">
-<remarks/>
-</member>
-<member name="M:ElClavoOxidado.CostoEnvioWebService.ClavoService.CostoEnvioAsync(System.String)">
-<remarks/>
-</member>
-<member name="M:ElClavoOxidado.CostoEnvioWebService.ClavoService.CostoEnvioAsync(System.String,System.Object)">
-<remarks/>
-</member>
-<member name="M:ElClavoOxidado.CostoEnvioWebService.ClavoService.CancelAsync(System.Object)">
-<remarks/>
-</member>
-<member name="T:ElClavoOxidado.CostoEnvioWebService.CostoEnvioCompletedEventHandler">
-<remarks/>
-</member>
-<member name="T:ElClavoOxidado.CostoEnvioWebService.CostoEnvioCompletedEventArgs">
-<remarks/>
-</member>
-<member name="P:ElClavoOxidado.CostoEnvioWebService.CostoEnvioCompletedEventArgs.Result">
-<remarks/>
 </member>
 </members>
 </doc>
