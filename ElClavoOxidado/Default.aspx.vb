@@ -7,7 +7,7 @@ Public Class _Default
     Dim _dal_producto As New Negocio.Producto
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
-        If Session.Item("CheckErrorValidate") = 0 Then
+        If Session.Item("CheckErrorValidate") = 0 And Context.User.IsInRole("1") Then
             Dim _listaProveedor As List(Of Entity.Proveedor) = _dal_proveedor.Get_Proveedores
             Dim _listaCategoria As List(Of Entity.Categoria) = _dal_categoria.Get_Categorias
             Dim _listaProducto As List(Of Entity.Producto) = _dal_producto.Obtener_Productos
@@ -31,7 +31,7 @@ Public Class _Default
                     _id += 1
                 End If
             Next
-            If _listaError.Count > 0 And Context.User.IsInRole("1") Then
+            If _listaError.Count > 0 Then
                 Session("ListaError") = _listaError
                 Session("CheckError") = 1
                 Response.Redirect("ErrorPage", True)
